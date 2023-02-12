@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.purple {
+    background-color: rgb(219, 163, 255);
+}
+
+.header {
+    color: white;
+    margin: 100px;
+    margin-top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-section {
+    color: white;
+    margin: 0px 100px;
+    padding: 0px 15px 50px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-side {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side > button {
+    width: 75px;
+    padding: 5px 0px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.right-side {
+    display: flex;
+}
+
+.image-top {
+    width: 400px;
+    margin-left: 15px;
+}
+
+.second-section {
+    padding: 20px;
+}
+
+.second-section > h2 {
+    text-align: center;
+    color: rgb(75, 96, 61);
+}
+
+.small-images {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.leaf {
+    max-width: 200px;
+}
+
+.leaf > img {
+    width: 100px;
+}
+
+.green {
+    background-color: rgb(199, 255, 163);
+    color: rgb(75, 96, 61);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.right-call {
+    display: flex;
+    align-items: center;
+}
+
+.right-call > button {
+    width: 75px;
+    padding: 5px 0px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-call {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dark-purple {
+    background-color: rgb(110, 82, 128);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.foot {
+    background-color: rgb(219, 163, 255);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
