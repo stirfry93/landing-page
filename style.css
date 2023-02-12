@@ -38,14 +38,28 @@ body {
     justify-content: space-between;
 }
 
-
 .left-side {
     width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.left-side > button {
+.top-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.title-and-subtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-subtext {
+    margin-top: 10px;
+}
+
+.top-section-button > button {
     width: 75px;
     padding: 5px 0px;
     background-color: white;
@@ -62,7 +76,10 @@ body {
 }
 
 .second-section {
-    padding: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .second-section > h2 {
@@ -73,16 +90,14 @@ body {
 .small-images {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    width: 600px;
+    gap: 40px;
     text-align: center;
-}
-
-.leaf {
-    max-width: 200px;
+    margin: 30px 50px;
 }
 
 .leaf > img {
-    width: 100px;
+    width: 75px;
 }
 
 .green {
